@@ -1,0 +1,47 @@
+{
+  "name": "practice_kao",
+  "version": "1.0.0",
+  "description": "crud on collaborators",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src --exec babel-node",
+    "build": "babel src -d dist",
+    "start": "node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesus-khristian/crud_collaborators.git"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "Jesus Christian Castillo Lozano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesus-khristian/crud_collaborators/issues"
+  },
+  "homepage": "https://github.com/jesus-khristian/crud_collaborators#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.12",
+    "standard": "^16.0.3"
+  },
+  "esLintConfig": {
+    "extended": "./node_modules/standard/eslintrc.json"
+  }
+}
