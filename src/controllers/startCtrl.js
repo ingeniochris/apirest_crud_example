@@ -4,7 +4,7 @@ export const startCtrl = async (req, res) => {
       routes: {
         SignUp: {
           routeProtected: false,
-          uri: "https://koapractice.herokuapp.com/api/auth/signup",
+          uri: "https://kaopractice.herokuapp.com/api/auth/signup",
           method: "POST",
           bodyParams: {
             email: "chris@gmail.com",
@@ -22,7 +22,7 @@ export const startCtrl = async (req, res) => {
         },
         SignIn: {
           routeProtected: false,
-          uri: "https://koapractice.herokuapp.com/api/user/signin",
+          uri: "https://kaopractice.herokuapp.com/api/user/signin",
           method: "POST",
           bodyParams: {
             email: "chris@gmail.com",
@@ -37,7 +37,7 @@ export const startCtrl = async (req, res) => {
         },
         GetAllCollaborators: {
           routeProtected: true,
-          uri: "https://koapractice.herokuapp.com/api/colaborador",
+          uri: "https://kaopractice.herokuapp.com/api/colaborador",
           method: "GET",
           headers: [
             {
@@ -54,7 +54,7 @@ export const startCtrl = async (req, res) => {
         },
         SearchCollaboratorId: {
           routeProtected: true,
-          uri: "https://koapractice.herokuapp.com/api/colaborador/:id",
+          uri: "https://kaopractice.herokuapp.com/api/colaborador/:id",
           method: "GET",
           params: {
             id: "e8d9add6-986c-4e80-9ef1-43c696332d41",
@@ -73,7 +73,7 @@ export const startCtrl = async (req, res) => {
         },
         AddCollaborator: {
           routeProtected: true,
-          uri: "https://koapractice.herokuapp.com/api/colaborador/add/",
+          uri: "https://kaopractice.herokuapp.com/api/colaborador/add/",
           method: "POST",
           bodyParams: {
             nombre_colaborador: "jesus castillo",
@@ -97,7 +97,7 @@ export const startCtrl = async (req, res) => {
         },
         UpdateCollaborator: {
           routeProtected: true,
-          uri: "https://koapractice.herokuapp.com/api/colaborador/update/:id",
+          uri: "https://kaopractice.herokuapp.com/api/colaborador/update/:id",
           method: "PUT",
           params: {
             id: "id collaborator example - 4545874554544c4c4c4c",
@@ -124,7 +124,7 @@ export const startCtrl = async (req, res) => {
         },
         DeleteCollaborator: {
           routeProtected: true,
-          uri: "https://koapractice.herokuapp.com/api/delete/:id",
+          uri: "https://kaopractice.herokuapp.com/api/delete/:id",
           method: "DELETE",
           params: {
             id: "id collaborator example - 5d5d4d7d8d4d5d4d7d8",

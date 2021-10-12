@@ -2,10 +2,10 @@
 
 ## Colaboradores info
 Puedes usar el archivo request.http o postman para probar api rest
-https://koapractice.herokuapp.com/api
+https://kaopractice.herokuapp.com/api
 
 ## Registro
-https://koapractice.herokuapp.com/api/auth/signup
+https://kaopractice.herokuapp.com/api/auth/signup
 - routeProtected: false
 - metodo: POST
 - bodyParams: 
@@ -22,7 +22,7 @@ https://koapractice.herokuapp.com/api/auth/signup
 - response: "User created",
 
 ## Login
-https://koapractice.herokuapp.com/api/auth/signing
+https://kaopractice.herokuapp.com/api/auth/signing
 - routeProtected: false
 - metodo: POST
 - bodyParams: 
@@ -34,7 +34,7 @@ https://koapractice.herokuapp.com/api/auth/signing
 - response: "Token for a new sesion"
 
 ## Get todos los colaboradores
-http://localhost:8080/api/colaborador/
+https://kaopractice.herokuapp.com/api/colaborador/
 - routeProtected: true
 - method: GET
 - headers:     
@@ -46,7 +46,7 @@ http://localhost:8080/api/colaborador/
 - response: "All collaborators in DB"
 
 ## GET colaboradores por id
-https://koapractice.herokuapp.com/api/colaborador/:id
+https://kaopractice.herokuapp.com/api/colaborador/:id
 
 - routeProtected: true
 - method: GET
@@ -63,7 +63,7 @@ https://koapractice.herokuapp.com/api/colaborador/:id
 
 
 ## POST /colaborador/ Crear un registro nuevo
-https://koapractice.herokuapp.com/api/colaborador/add/
+https://kaopractice.herokuapp.com/api/colaborador/add/
 - routeProtected: true
 - method: POST,
 - bodyParams: 
@@ -83,7 +83,7 @@ https://koapractice.herokuapp.com/api/colaborador/add/
 - response: "Success or error ",
 
 ## PUT /colaborador/:idColaborador Actualizar un registro específico
-https://koapractice.herokuapp.com/api/colaborador/update/:id
+https://kaopractice.herokuapp.com/api/colaborador/update/:id
 - routeProtected: true
 - method: PUT
 - params: 
@@ -105,7 +105,7 @@ https://koapractice.herokuapp.com/api/colaborador/update/:id
 - response: "Success or error "
 
 ## DELETE /colaborador/:idColaborador Eliminar registro
-https://koapractice.herokuapp.com/api/colaborador/delete/:id
+https://kaopractice.herokuapp.com/api/colaborador/delete/:id
 - routeProtected: true
 - params:
 > -     id: ""
